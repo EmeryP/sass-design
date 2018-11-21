@@ -1,0 +1,33 @@
+$rootColor: lightblue;
+$headerColor: green;
+$fontColor: purple;
+
+body{
+  background: lighten($rootColor, 2);
+
+  header{
+    background: lighten($headerColor, 50);
+    border-radius: 20px;
+    text-align: center;
+  }
+  h1{
+      color:$fontColor;
+      font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      width: 50%;
+      margin-left: 25%;
+      text-align: center;
+      border: 5px solid black;
+      border-radius: 10px;
+  }
+  h2 {
+    color: orange;
+    font-size: 50px;
+    text-align: center;
+    border: 5px dashed red;
+    font-family: cursive;
+    width: 75%;
+    margin-left: 12.5%;
+    text-align: center;
+  }
+
+}
