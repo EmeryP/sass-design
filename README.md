@@ -1,2 +1,2 @@
 # sass-design
-My design repo
+My sass design starter
